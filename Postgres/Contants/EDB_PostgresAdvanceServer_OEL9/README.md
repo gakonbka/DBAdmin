@@ -70,7 +70,7 @@ sudo dnf install epel-release
 #/usr/bin/crb enable
 
 # install EDB Repo on all Servers 
-curl -1sSLf 'https://downloads.enterprisedb.com/uEsw33GAQRegfOuBeTEzGqyBnIJwqi0J/enterprise/setup.rpm.sh' | sudo -E bash
+curl -1sSLf 'https://downloads.enterprisedb.com//enterprise/setup.rpm.sh' | sudo -E bash
 
 # cache the metadata 
 dnf makecache
